@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-admin-server" />
+        <module name="spring-cloud-config-server" />
+        <module name="ccds-level" />
+        <module name="spring-cloud-security-oauth2" />
+        <module name="system-user" />
+        <module name="ccds-card" />
+        <module name="component-data-entity" />
+        <module name="component-data-redis" />
+        <module name="ccds-center" />
+        <module name="spring-cloud-config-bus" />
+        <module name="spring-cloud-eureka-server" />
+        <module name="system-role" />
+        <module name="ccds-parcel" />
+        <module name="component-data-jpa" />
+        <module name="spring-cloud-gateway-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ccds-card" target="1.8" />
+      <module name="ccds-center" target="1.8" />
+      <module name="ccds-level" target="1.8" />
+      <module name="ccds-parcel" target="1.8" />
+      <module name="component-core" target="1.8" />
+      <module name="component-data-entity" target="1.8" />
+      <module name="component-data-jpa" target="1.8" />
+      <module name="component-data-redis" target="1.8" />
+      <module name="microservice-modules" target="1.8" />
+      <module name="spring-cloud-admin-server" target="1.8" />
+      <module name="spring-cloud-config-bus" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-core" target="1.8" />
+      <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-cloud-gateway-api" target="1.8" />
+      <module name="spring-cloud-javakc" target="1.8" />
+      <module name="spring-cloud-security-oauth2" target="1.8" />
+      <module name="system-role" target="1.8" />
+      <module name="system-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccds-card" options="-parameters" />
+      <module name="ccds-center" options="-parameters" />
+      <module name="ccds-level" options="-parameters" />
+      <module name="ccds-parcel" options="-parameters" />
+      <module name="component-data-entity" options="-parameters" />
+      <module name="component-data-jpa" options="-parameters" />
+      <module name="component-data-redis" options="-parameters" />
+      <module name="spring-cloud-admin-server" options="-parameters" />
+      <module name="spring-cloud-config-bus" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="spring-cloud-eureka-server" options="-parameters" />
+      <module name="spring-cloud-gateway-api" options="-parameters" />
+      <module name="spring-cloud-security-oauth2" options="-parameters" />
+      <module name="system-role" options="-parameters" />
+      <module name="system-user" options="-parameters" />
+    </option>
+  </component>
+</project>

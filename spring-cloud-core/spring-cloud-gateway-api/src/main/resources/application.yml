@@ -1,0 +1,83 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-cloud-gateway-api
+  cloud:
+    gateway:
+      routes:
+      - id: system-user
+        uri: lb://system-user
+        predicates:
+        - Path=/system/user/**
+
+      - id: system-role
+        uri: lb://system-role
+        predicates:
+        - Path=/system/role/**
+
+      - id: ccds-card
+        uri: lb://ccds-card
+        predicates:
+        - Path=/ccdsCard/card/**
+
+      - id: ccds-level
+        uri: lb://ccds-level
+        predicates:
+        - Path=/ccdsLevel/level/**
+
+      - id: ccds-parcel
+        uri: lb://ccds-parcel
+        predicates:
+        - Path=/ccdsParcel/parcel/**
+
+      - id: ccds-center
+        uri: lb://ccds-center
+        predicates:
+        - Path=/ccdsCenter/center/**
+
+      - id: news-163
+        uri: http://www.163.com/
+        predicates:
+        - Path=/163
+        filters:
+        - name: Hystrix
+          args:
+            name: fallbackCommand
+            fallbackUri: forward:/hystrix/fallback
+      default-filters:
+      - name: LogGatewayFilter
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8001/eureka/,http://127.0.0.1:8002/eureka/
+    enabled: true
+    # eureka client间隔多久去拉取服务注册信息，默认为30秒
+    registryFetchIntervalSeconds: 5
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: debug
+#logging:
+#  level:
+#    org.springframework.cloud.gateway: WARN
+#    org.springframework.http.server.reactive: DEBUG
+#    org.springframework.web.reactive: DEBUG
+#    reactor.ipc.netty: DEBUG
+info:
+  app:
+    name: "@project.name.gateway@"
+    description: "@project.description.gateway@"
+    version: "@project.version.gateway@"

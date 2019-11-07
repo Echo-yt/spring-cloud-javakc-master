@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-core/component-data-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-core/component-data-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-core/component-data-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/ccds-card" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/ccds-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/ccds-level" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/ccds-parcel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/system-role" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-modules/system-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-admin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-gateway-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-security-oauth2" charset="UTF-8" />
+  </component>
+</project>

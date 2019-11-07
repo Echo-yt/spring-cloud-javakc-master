@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/ccds-card/ccds-card.iml" filepath="$PROJECT_DIR$/microservice-modules/ccds-card/ccds-card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/ccds-center/ccds-center.iml" filepath="$PROJECT_DIR$/microservice-modules/ccds-center/ccds-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/ccds-level/ccds-level.iml" filepath="$PROJECT_DIR$/microservice-modules/ccds-level/ccds-level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/ccds-parcel/ccds-parcel.iml" filepath="$PROJECT_DIR$/microservice-modules/ccds-parcel/ccds-parcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-core/component-core.iml" filepath="$PROJECT_DIR$/component-core/component-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-core/component-data-entity/component-data-entity.iml" filepath="$PROJECT_DIR$/component-core/component-data-entity/component-data-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-core/component-data-jpa/component-data-jpa.iml" filepath="$PROJECT_DIR$/component-core/component-data-jpa/component-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-core/component-data-redis/component-data-redis.iml" filepath="$PROJECT_DIR$/component-core/component-data-redis/component-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/microservice-modules.iml" filepath="$PROJECT_DIR$/microservice-modules/microservice-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-admin-server/spring-cloud-admin-server.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-admin-server/spring-cloud-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-bus/spring-cloud-config-bus.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-bus/spring-cloud-config-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-core.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-gateway-api/spring-cloud-gateway-api.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-gateway-api/spring-cloud-gateway-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-javakc.iml" filepath="$PROJECT_DIR$/spring-cloud-javakc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-security-oauth2/spring-cloud-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-security-oauth2/spring-cloud-security-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/system-role/system-role.iml" filepath="$PROJECT_DIR$/microservice-modules/system-role/system-role.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-modules/system-user/system-user.iml" filepath="$PROJECT_DIR$/microservice-modules/system-user/system-user.iml" />
+    </modules>
+  </component>
+</project>
